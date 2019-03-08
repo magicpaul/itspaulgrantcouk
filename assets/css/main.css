@@ -1,0 +1,386 @@
+ /* Author: Carlos Alvarez
+ * URL: http://alvarez.is
+ *
+ * Project Name: Kelvin - Free Bootstrap 3 Resume Theme
+ * Version: 1.0
+ * URL: http://blacktie.co
+ */
+
+body {
+  background: #f2f2f2;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #333;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat";
+    font-weight: 300;
+    color: #333;
+}
+
+h5{
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	font-size: 1.5em;
+	margin-top: 0;
+}
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #ecf0f1;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+/*---------------------------------------------------
+	3.1 Topbar
+---------------------------------------------------*/
+
+#section-topbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 10000;
+	overflow: visible;
+	font: normal 16px/24px Helvetica, Arial, sans-serif;
+}
+
+#section-topbar a {
+  color: #fff;
+}
+
+#topbar-inner {
+	background: #111;
+	line-height: 0;
+	text-align: center;
+}
+
+/*
+	Top Bar
+
+	By default, top navigation bar uses "fixed" position
+*/
+#section-topbar ul#nav {
+	display: inline-block;
+	position: relative;
+	margin: 0;
+	padding: 0;
+
+	border-right: 1px solid #222;
+
+	/* For IE, the outcast */
+	zoom:1;
+	*display: inline;
+}
+
+#section-topbar ul#nav > li {
+	display: block;
+    float: left;
+    padding: 0;
+}
+
+
+#section-topbar ul#nav a {
+  display: block;
+  font: normal 11px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  padding: 18px 20px 18px 20px;
+  border-left: 1px solid #222;
+}
+
+	#section-topbar ul#nav a:hover {
+	  background: #222;
+	  text-decoration: none;
+	  border-left: 1px solid #111;
+	}
+
+	#section-topbar ul#nav .active a {
+		background: #44bbaa;
+		border-left: 1px solid #111;
+	}
+
+		#section-topbar ul#nav .active a:hover {
+			background: #44bbaa;
+		}
+#section-topbar i {
+	font-size: 25px;
+}
+/*---------------------------------------------------
+	SECTION WRAPS
+---------------------------------------------------*/
+
+/* Header Wrap */
+#headerwrap,#headerwrap.header-large {
+	background: url(../img/header-bg.jpg) no-repeat center top;
+	padding-top:40px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	height: 300px;
+	width: 100%;
+
+    -webkit-background-size: 100%;
+       -moz-background-size: 100%;
+    	 -o-background-size: 100%;
+    		background-size: 100%;
+
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+    	 -o-background-size: cover;
+    		background-size: cover;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    overflow: hidden;
+    -webkit-transition: height 0.3s;
+       -moz-transition: height 0.3s;
+    		transition: height 0.3s;
+
+	-webkit-box-shadow: 0px 2px 2px 0px rgba(50, 50, 50, 0.4);
+	   -moz-box-shadow:    0px 2px 2px 0px rgba(50, 50, 50, 0.4);
+			box-shadow:         0px 2px 2px 0px rgba(50, 50, 50, 0.4);
+
+}
+
+#headerwrap h1,#headerwrap.header-large h1 {
+	font-size: 80px;
+	color: white;
+    font-weight: 400;
+}
+
+#headerwrap h3,#headerwrap.header-large h3 {
+	font-size: 20px;
+	color: white;
+    font-weight: 700;
+}
+
+#headerwrap.header-small{
+	height: 80px;
+	padding-top: 0;
+}
+#headerwrap.header-small h1,#headerwrap.header-small h3{
+	margin: 0;
+	line-height: 80px;
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+#headerwrap.header-small h1{
+	font-size: 40px;
+	float: left;
+}
+#headerwrap.header-small h3{
+	float:right;
+}
+/* Intro Wrap */
+
+#intro {
+	background: #384047;
+	padding-top: 360px;
+	padding-bottom: 60px;
+	margin-top:0px;
+}
+
+#intro h5, #intro p {
+	color: white;
+}
+
+#intro i {
+	font-size: 20px;
+	padding-right: 8px;
+	vertical-align: middle;
+}
+
+
+#skillswrap {
+	background: #eeeeee;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	color: #384047;
+}
+
+#skillswrap h5, p {
+	color: #384047;
+}
+
+#footwrap {
+	background: #384047;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#footwrap p {
+	color: white;
+}
+
+#footwrap h5 {
+	color: white;
+}
+
+
+#footwrap t {
+	font-weight: 700;
+}
+
+#footwrap i {
+	padding-right: 8px;
+	/*color: #7f8c8d;*/
+}
+
+/* Copyright Wrap */
+
+#c {
+	background: #2e3339;
+	padding-top: 15px;
+	text-align: right;
+}
+
+#c p {
+	color: white
+}
+
+
+
+/* Global Values */
+
+.desc {
+	padding-top: 50px;
+}
+
+.desc p {
+	color: #2f2f2f;
+}
+
+.desc a.tip{
+	color: #2f2f2f;
+	border-bottom: 1px dashed #2f2f2f;
+}
+.desc t {
+	color: #34495e;
+	font-weight: 700;
+}
+
+.desc imp {
+	padding: 6px;
+	color: white;
+	background: #2570a9;
+}
+
+.desc more, .desc ul {
+	color: #666;
+}
+
+#footerwrap i{
+  width: 1em;
+  height: 1em;
+  display:block;
+  cursor: pointer;
+}
+
+sm {
+	font-size: 12px;
+}
+
+.tooltip-inner{
+	background: #384047;
+}
+.tooltip.bottom .tooltip-arrow{
+	border-bottom-color: #384047!important;
+}
+.glyphicon{
+	margin-right: 5px;
+}
+
+/* Example Media Queries */
+@media screen and (max-width: 55em) {
+
+    #headerwrap,#headerwrap.header-small {
+        position:static;
+        height: 200px;
+        padding-top: 40px;
+    }
+
+    #headerwrap h1,
+    #headerwrap h3 {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        float: none;
+    }
+ 	#intro{
+ 		padding-top: 60px;
+ 	}
+    #headerwrap h1,#headerwrap.header-small h1 {
+       font-size: 3.5em;
+       line-height: 1.1em;
+    }
+
+    #headerwrap h3,#headerwrap.header-small h3 {
+        font-size: 2em;
+        line-height: 1.1em;
+    }
+}
+
+@media screen and (max-width: 32.25em) {
+    #headerwrap h3,#headerwrap.header-small h3 {
+        font-size: 1em;
+    }
+    #headerwrap h1,
+    #headerwrap h3,#headerwrap.header-small h3,#headerwrap.header-small h1{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        float: none;
+    }
+}
