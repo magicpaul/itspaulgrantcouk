@@ -1,0 +1,280 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!--<meta http-equiv="X-UA-Compatible" content="chrome=1" />-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mission Africa</title>
+    <script src="js/vendor/modernizr.js"></script>    
+    <script type="text/javascript">
+         /* Modernizr.load({
+          test: Modernizr.fontface && Modernizr.canvas && Modernizr.cssgradients,
+          yep : 'css/foundation.css',
+          nope: 'css/foundation-ie.css'
+        });*/
+    </script>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/iealert.css" /> 
+    <!--[if lt IE 9]>
+      <style type="text/css">
+        .small-1,.row .small-1 { width: 8.33333%; }
+        .small-2, .row .small-2 { width: 16.66667%; }
+        .small-3, .row .small-3 { width: 25%; }
+        .small-4, .row .small-4 { width: 33.33333%; }
+        .small-5, .row .small-5 { width: 41.66667%; }
+        .small-6, .row .small-6 { width: 50%; }
+        .small-7, .row .small-7 { width: 58.33333%; }
+        .small-8, .row .small-8 { width: 66.66667%; }
+        .small-9, .row .small-9 { width: 75%; }
+        .small-10, .row .small-10 { width: 83.33333%; }
+        .small-11, .row .small-11 { width: 91.66667%; }
+        .small-12, .row .small-12 { width: 100%; }
+
+        .large-1, .row .large-1 { width: 8.33333%; }
+        .large-2, .row .large-2 { width: 16.66667%; }
+        .large-3, .row .large-3 { width: 25%; }
+        .large-4, .row .large-4 { width: 33.33333%; }
+        .large-5, .row .large-5 { width: 41.66667%; }
+        .large-6, .row .large-6 { width: 50%; }
+        .large-7, .row .large-7 { width: 58.33333%; } 
+        .large-8, .row .large-8 { width: 66.66667%; }
+        .large-9, .row .large-9 { width: 75%; }
+        .large-10, .row .large-10 { width: 83.33333%; }
+        .large-11, .row .large-11 { width: 91.66667%; }
+        .large-12, .row .large-12 { width: 100%; }
+      </style>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+      <script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+      <script src="//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+    <div id="navwrap" class="contain-to-grid">
+      <div class="row">
+        <nav class="hide-for-small">
+          <div class="large-4 medium-3 columns">
+            <img data-interchange="[img/logo.png, (default)], [img/mobile-logo.png, (only screen and (max-width: 1024px))]">
+          </div>
+          <div class="large-8 medium-9 columns mainnav">
+            <ul class="right text-right">
+              <li><a href="#" class="transition" data-dropdown="drop1">Who we are</a>
+                <ul id="drop1" class="f-dropdown" data-dropdown-content>
+                  <li><a href="#">Staff</a></li>
+                  <li><a href="#">Missionaries</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </li>
+              <li><a href="#" class="transition" data-dropdown="drop2">What we do</a>
+                <ul id="drop2" class="f-dropdown" data-dropdown-content>
+                  <li><a href="#">Ministries</a></li>
+                  <li><a href="#">Where we work</a></li>
+                  <li><a href="#">News</a></li>
+                  <li><a href="#">Events</a></li>
+                </ul>
+              </li>
+              <li><a href="#" class="transition" data-dropdown="drop3">Ways to serve</a>
+                <ul id="drop3" class="f-dropdown" data-dropdown-content>
+                  <li><a href="#">Go</a></li>
+                  <li><a href="#">Give</a></li>
+                  <li><a href="#">Pray</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <nav class="top-bar show-for-small" data-topbar>
+          <ul class="title-area">
+              <li class="name">
+                <h1><a href="#"><img src="img/mobile-logo.png"></a></h1>
+              </li>
+              <li class="toggle-topbar"> <a class="lines-button x2 text-right"><span class="lines"></span>
+          </a></li>
+            </ul>
+          <section class="top-bar-section">
+            <ul class="right">
+              <li class="has-dropdown">
+                <a href="#" class="transition">Who we are</a>
+                  <ul class="dropdown">
+                    <li><a href="#">Staff</a></li>
+                    <li><a href="#">Missionaries</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                  </ul>
+              </li>
+              <li class="has-dropdown">
+                <a href="#" class="transition">What we do</a>
+                  <ul class="dropdown">
+                    <li><a href="#">Ministries</a></li>
+                    <li><a href="#">Where we work</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Events</a></li>
+                  </ul>
+                  
+              </li>
+              <li class="has-dropdown">
+                <a href="#" class="transition">Ways to serve</a>
+                  <ul class="dropdown">
+                    <li><a href="#">Go</a></li>
+                    <li><a href="#">Give</a></li>
+                    <li><a href="#">Pray</a></li>
+                  </ul>
+              </li>
+            </ul>
+          </section>
+        </nav>
+      </div>
+    </div>
+    
+    <header>
+      <div class="row">
+        <div class="small-12 large-6 columns banner">
+          <h1>Bringing the Good News of Jesus to the people of Africa</h1>
+          <p>Pioneering evangelism among people yet to be reached with the Gospel.</p>
+          <ul class="button-group banner-group small-centered">
+            <li><a class="button small round" href="/">give</a></li>
+            <li><a class="button small secondary round" href="/">respond</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+   <!--<div id="subnav" class="hide-for-small background-grey">
+        <div class="row">
+          <div class="large-12">
+            <ul>
+              <li><a class="transition">Who we are</a></li>
+              <li><a class="transition">Missionaries</a></li>
+              <li><a class="transition">Ministries</a></li>
+              <li><a class="transition">Prayer</a></li>
+              <li><a class="transition">News</a></li>
+              <li><a class="transition">Events</a></li>
+              <li><a class="transition">Contact us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>-->
+    <section class="main1">
+      <div class="row">
+        <div class="large-6 columns main1_left">
+          <h3 style="">Prayer for Today</h3><div class="prayer-share"></div>
+          <h5>Monday 17th February 2013</h5>
+          <p>Richard and Laura Morrison would appreciate prayer as they start to make plans to return to Nigeria with Caleb. Give thanks that Caleb’s passport has arrived. Please pray that his visa application all goes smoothly.</p>
+        </div>
+        <div class="large-6 columns main1_right" id="mission_focus">
+          <h3 class="clearfix">Mission Focus</h3>
+          <h5>Open Doors Special Education Centre</h5>
+          <img src="img/mission_focus1.jpg" class="left">
+          <p>Open Doors in Jos, Nigeria provides specialised education for children with physical and learning disabilities, such as Autism, Down’s Syndrome and Cerebral Palsy.</p>
+        </div>
+      </div>
+    </section>
+    <section class="news">
+      <div class="row">
+        <div class="large-12 columns">
+          <div class="news-title">
+            <h2>Latest News</h2>
+          </div>
+        </div>
+      </div>
+      <div class="news-wrap">
+        <div class="row news-item">
+          <div class="small-4 columns">
+            <a class="th"><img src="img/news1.jpg" alt=""></a>
+          </div>
+          <div class="small-8 columns">
+            <h3>A Summer in Ogugu</h3>
+            <p>This past year we have had five different teams to Africa and in every case their primary purpose is to share the Gospel and see people coming to a relationship with Christ. </p><a href="#" title="" class="read-more">Read more</a>
+          </div>
+        </div>
+        <div class="row news-item">
+          <div class="small-4 columns">
+            <a class="th"><img src="img/news2.jpg" alt=""></a>
+          </div>
+          <div class="small-8 columns">
+            <h3>Introducing Jahi</h3>
+            <p>Following on from establishing the Donegore centre in Ogugu, Kogi State, an opportunity has arisen for ADVANCE to reach into another area in much need of support. </p>
+
+  <p>This project will require much support and prayer as ADVANCE seek to work with the church to establish a base and facilities in this area to help this community.  </p><a href="#" title="" class="read-more">Read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="news background-grey">
+      <div class="row">
+        <div class="large-6 columns">
+          <div class="news-title">
+            <h3>What's happening?</h3>
+            <h5 class="subheader">Below is a list of Mission Africa events this month.</h5>
+          </div>
+          <div class="row">
+            <div class="large-8 columns event">
+              <p><strong>21st February - Understanding Africa: Effective Mission in an African Context.</strong>A free, 3 session course exploring under the surface of the many issues surrounding mission in Africa today.
+              </p>
+            </div>
+            <div class="large-4 columns"><a class="button tiny round" href="#">Sign up</a></div>
+          </div>
+        </div>
+        <div class="large-6 columns">
+          <div class="news-title">
+            <h3>Get involved</h3>
+            <h5 class="subheader">Here are some ways you can support our work</h5>
+          </div>
+        </div>
+      </div>
+    </section> 
+    <section class="subscribe-form">
+      <form>
+        <div class="row">
+          <div class="small-6 medium-10 columns">
+            <input type="text" placeholder="Enter your e-mail" spellcheck="false">
+          </div>
+          <div class="small-6 medium-2 columns text-right">
+            <button class="button success small radius">Subscribe</button>
+          </div>
+        </div>
+      </form>
+    </section>
+    <footer>
+      <div class="row">
+        <div class="large-3 small-4 columns">
+          <img src="img/logo2.png" class="footer-logo">
+        </div>
+        
+        <div class="large-3 small-8 columns">
+          <ul class="vcard">
+            <li class="fn">Mission Africa</li>
+            <li class="street-address">14 Glencregagh Court</li>
+            <li class="locality">Belfast,<span class="zip">BT6 0AP</span></li>
+            <li class="email"><a href="#">info@missionafrica.org.uk</a></li>
+          </ul>
+        </div>
+        <div class="large-6 small-12 columns">
+          <p><small>Mission Africa (The Qua Iboe Fellowship) is deemed to be a charity by the Charity Commission for Northern Ireland Recognised as a Charity by HMRC No XN45493</small></p>
+          <p><small>Registered in Company House Belfast as a Company Limited by Guarantee R611</small></p>
+        </div>
+      </div>
+    </footer>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/vendor/iealert.min.js"></script>
+    <script src="js/vendor/placeholder.js"></script>
+    <script src="js/vendor/share.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <script>
+      $(document).foundation();
+      $(document).ready(function() {
+        $("body").iealert();
+        $('input, textarea').placeholder();
+        $('.lines-button').click(function(){
+          $(this).toggleClass('open');
+        });
+        $('.prayer-share').share({
+          icon: 'share'
+        });
+        $("#mission_focus img").height($("#mission_focus p").height());
+      });
+    </script>
+    <script src="js/rem.min.js"></script>
+  </body>
+</html>

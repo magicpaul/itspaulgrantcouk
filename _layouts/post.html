@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<section class="blog">
+  <div class="blog-intro" style="background-image:url('{{ page.image }}')">
+  <div class="intro-overlay"></div>
+    <div class="post-deets row">
+      <div class="small-12 columns">
+        <h1 class="post-presentation-title" data-waypoint >{{page.title}}</h1>
+        <h2 class="post-presentation-sub"><small>{{page.subtitle}}</small></h2>
+        <p class="post-presentation-author"><span class="post-by">by </span>{{page.author}}</p>
+      </div>
+    </div>
+  </div>
+  <div class="arrow-up-white"></div>
+  <article class="post-body row">
+    <div class="small-12 columns post-text">
+      {{content}}
+    </div>
+  </article>
+</section>

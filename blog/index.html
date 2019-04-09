@@ -1,0 +1,31 @@
+---
+layout: default
+title: Blog
+---
+<section class="blog push-top">
+  <h1 data-waypoint class="text-center">Latest Posts</h1>
+    {% for post in site.posts %}
+	  <article class="row post-container">
+	    <div class="large-6 columns">
+	    	<img src="{{baseurl}}{{post.thumb}}" />
+	    </div>
+	    <div class="large-5 large-offset-1 columns">
+	      <div class="row">
+	        <div class="small-3 columns">
+	          <p class="post-date"><span class="post-day">{{post.day}}</span><span class="post-month">{{post.month}}</span></p>
+	        </div>
+	        <div class="small-9 columns">
+	          <h3 class="post-title">{{post.title}}</h3>
+	          <p class="post-author"><span class="post-by">by</span> {{post.author}}</p>
+	        </div>
+	      </div>
+	      <div class="row">
+	        <div class="small-12 columns post-text">
+	      		{{ post.excerpt }}
+	      		<a href="{{ post.url }}" class="tiny secondary button" data-link>Read more</a>
+	      	</div>
+	      </div>
+	    </div>
+		</article>
+	{% endfor %}
+</section>

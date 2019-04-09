@@ -1,0 +1,73 @@
+name: Paul Designs
+markdown: redcarpet
+permalink: pretty
+highlighter: pygments
+baseurl: ""
+prose:
+  siteurl: 'http://magicpaul.github.io'
+  media: 'media'
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "subtitle"
+        field:
+          element: "text"
+          label: "Subtitle"
+          value: ""
+      - name: "image"
+        field:
+          element: "text"
+          label: "Image"
+          value: ""
+      - name: "thumb"
+        field:
+          element: "text"
+          label: "Small Image"
+          value: ""
+      - name: "author"
+        field:
+          element: "text"
+          label: "Author"
+          value: ""
+      - name: "day"
+        field:
+          element: "text"
+          label: "Day"
+          value: ""
+      - name: "month"
+        field:
+          element: "select"
+          label: "Select Month"
+          options:
+            - name: "January"
+              value: "jan"
+            - name: "February"
+              value: "feb"
+            - name: "March"
+              value: "mar"
+            - name: "April"
+              value: "apr"
+            - name: "May"
+              value: "may"
+            - name: "June"
+              value: "jun"
+            - name: "July"
+              value: "jul"
+            - name: "August"
+              value: "aug"
+            - name: "September"
+              value: "Sep"
+            - name: "October"
+              value: "oct"
+            - name: "November"
+              value: "nov"
+            - name: "December"
+              value: "dec"
