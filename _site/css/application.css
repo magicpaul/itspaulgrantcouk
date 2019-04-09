@@ -438,6 +438,9 @@ letter-spacing: 0.03em;
 #ma-brand{
 	background-image: url('../img/portfolio/ma-brand/thumb-mobile.jpg');
 }
+#ma-brand h2, #ma-brand h3{
+	color:#333;
+}
 #film{
 	background-image: url('../img/portfolio/film/thumb.jpg');
 	background-position: left top;
@@ -701,6 +704,7 @@ footer{
 	font-size: 1.5em;
 	font-weight: 200;
 }
+p.hidden{display: none;}
 @media only screen and (max-width: 40em) {
 	header{
 		height:500px;
