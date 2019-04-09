@@ -319,7 +319,7 @@ max-height:1000px;
 	background: url(../img/intro.jpg) no-repeat center center fixed;
 }
 .intro.about{
-	background: url(../img/aboutintro.jpg) no-repeat center center fixed;
+	background: linear-gradient(0deg, rgba(255, 255, 255, .2), rgba(0, 0, 0, .5)), rgba(0, 0, 0, .5) url(../img/aboutintro.jpg) no-repeat center center fixed;
 	text-align: center;
 }
 .intro h1{
