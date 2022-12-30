@@ -699,7 +699,7 @@ footer{
 	transform: rotate(135deg);
 }
 .textblock{
-	padding: 2em 0;
+	padding: 2em 1em;
 }
 .textblock p{
 	font-size: 1.5em;
